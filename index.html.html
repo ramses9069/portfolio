@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam Application Portal</title>
+<style>
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:20px;
+}
+
+nav a{
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+color:#2c3e50;
+}
+
+.container{
+margin-top:50px;
+}
+
+button{
+padding:10px 20px;
+background:#3498db;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Online Exam Application Portal</h1>
+<p>Apply for your exams easily online</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="register.html">Register</a>
+<a href="login.html">Login</a>
+<a href="apply.html">Apply Exam</a>
+</nav>
+
+<div class="container">
+<h2>Welcome to the Exam Portal</h2>
+<p>This portal allows students to register and apply for exams online.</p>
+
+<a href="register.html">
+<button>Register Now</button>
+</a>
+
+<a href="login.html">
+<button>Login</button>
+</a>
+
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+<style>
+
+body{
+font-family:Arial;
+background:#ecf0f1;
+}
+
+form{
+width:400px;
+margin:auto;
+background:white;
+padding:20px;
+margin-top:50px;
+border-radius:8px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#27ae60;
+color:white;
+border:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<form>
+<h2>Student Registration</h2>
+
+<label>Full Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>ID Number</label>
+<input type="text" required>
+
+<label>Course</label>
+<input type="text" required>
+
+<label>Password</label>
+<input type="password" required>
+
+<button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+}
+
+form{
+width:350px;
+margin:auto;
+background:white;
+padding:20px;
+margin-top:80px;
+border-radius:8px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#2980b9;
+color:white;
+border:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<form>
+
+<h2>Student Login</h2>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Password</label>
+<input type="password" required>
+
+<button type="submit">Login</button>
+
+</form>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam Application</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f4f4;
+}
+
+form{
+width:450px;
+margin:auto;
+background:white;
+padding:20px;
+margin-top:40px;
+border-radius:8px;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#e67e22;
+color:white;
+border:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<form>
+
+<h2>Exam Application Form</h2>
+
+<label>Student Name</label>
+<input type="text" required>
+
+<label>Registration Number</label>
+<input type="text" required>
+
+<label>Select Course</label>
+
+<select>
+<option>ICT Level 6</option>
+<option>Networking</option>
+<option>Mobile Application Development</option>
+<option>Graphic Design</option>
+</select>
+
+<label>Exam Center</label>
+<input type="text">
+
+<label>Exam Date</label>
+<input type="date">
+
+<button type="submit">Submit Application</button>
+
+</form>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#ecf0f1;
+}
+
+table{
+width:80%;
+margin:auto;
+border-collapse:collapse;
+margin-top:50px;
+background:white;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:10px;
+text-align:center;
+}
+
+th{
+background:#34495e;
+color:white;
+}
+
+button{
+padding:5px 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2 style="text-align:center;">Admin Dashboard</h2>
+
+<table>
+
+<tr>
+<th>Student Name</th>
+<th>Course</th>
+<th>Exam Date</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+
+<tr>
+<td>John Doe</td>
+<td>ICT Level 6</td>
+<td>12/07/2026</td>
+<td>Pending</td>
+<td>
+<button>Approve</button>
+<button>Reject</button>
+</td>
+</tr>
+
+<tr>
+<td>Mary Wanjiku</td>
+<td>Networking</td>
+<td>12/07/2026</td>
+<td>Pending</td>
+<td>
+<button>Approve</button>
+<button>Reject</button>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
